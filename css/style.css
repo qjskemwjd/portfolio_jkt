@@ -1,0 +1,407 @@
+/* HOME */
+#home,
+#portfolio,
+#contact {
+    background-color: #333;
+}
+
+#home .inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-txt {
+    position: relative;
+    width: 50%;
+}
+
+.home-txt h2 {
+    -webkit-animation: glow 2s ease-in-out infinite;
+    animation: glow 2s ease-in-out infinite;
+    font-family: GmarketSans;
+    font-weight: 700;
+    font-size: 4rem;
+
+}
+
+.home-txt p {
+    margin-top: 30px;
+    font-size: 1.5rem;
+    color: #fff;
+
+}
+
+@-webkit-keyframes glow {
+
+    0%,
+    100% {
+        color: #FFF;
+        text-shadow: 0 0 10px #0652DD, 0 0 50px #0652DD, 0 0 100px #0652DD;
+    }
+
+    10%,
+    90% {
+        color: #111;
+        text-shadow: none;
+    }
+}
+
+@keyframes glow {
+
+    0%,
+    100% {
+        color: #FFF;
+        text-shadow: 0 0 10px #0652DD, 0 0 50px #0652DD, 0 0 100px #0652DD;
+    }
+
+    10%,
+    90% {
+        color: #111;
+        text-shadow: none;
+    }
+}
+
+.home-skill {
+    position: relative;
+    width: 50%;
+    height: 292px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.home-skill ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-skill ul li img {
+    width: 70%;
+    -webkit-animation: upAndDown 1s infinite;
+    animation: upAndDown 1s infinite;
+}
+
+.home-skill ul li:nth-child(1) img {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+
+.home-skill ul li:nth-child(2) img {
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+}
+
+.home-skill ul li:nth-child(3) img {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+
+.home-skill ul li:nth-child(4) img {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+
+.home-skill ul li:nth-child(5) img {
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+
+.home-skill ul li:nth-child(6) img {
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+
+.home-skill ul li:nth-child(7) img {
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+
+.home-skill h3 {
+    font-size: 3rem;
+    color: #fff;
+    font-family: GmarketSans;
+    font-weight: 700;
+}
+
+.home-scroll-ani {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+
+}
+
+.home-scroll-ani p {
+    font-size: 6rem;
+    -webkit-animation: Color 4s linear infinite;
+    animation: Color 4s linear infinite;
+    font-family: GmarketSans;
+}
+
+@-webkit-keyframes Color {
+    0% {
+        color: #A0D468;
+    }
+
+    20% {
+        color: #4FC1E9;
+    }
+
+    40% {
+        color: #FFCE54;
+    }
+
+    60% {
+        color: #FC6E51;
+    }
+
+    80% {
+        color: #ED5565;
+    }
+
+    100% {
+        color: #AC92EC;
+    }
+}
+
+@keyframes Color {
+    0% {
+        color: #A0D468;
+    }
+
+    20% {
+        color: #4FC1E9;
+    }
+
+    40% {
+        color: #FFCE54;
+    }
+
+    60% {
+        color: #FC6E51;
+    }
+
+    80% {
+        color: #ED5565;
+    }
+
+    100% {
+        color: #AC92EC;
+    }
+}
+
+.home-scroll-ani img {
+    margin-top: 10px;
+    width: 33px;
+    -webkit-animation: upAndDown 1s infinite;
+    animation: upAndDown 1s infinite;
+}
+
+@-webkit-keyframes upAndDown {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes upAndDown {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* portfolio */
+
+
+.portfolio-list .fp-tableCell {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+
+.portfolio-tit {
+    width: 50%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.portfolio-tit .sub {
+    color: #fff;
+    font-size: 2rem;
+    font-family: GmarketSans;
+}
+
+.portfolio-tit .main {
+    color: #fff;
+    font-size: 5rem;
+    font-family: GmarketSans;
+}
+
+
+.desc-list li h4 {
+    color: #fff;
+    font-size: 1rem;
+    font-family: GmarketSans;
+}
+
+.desc-list li p {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 2.5rem;
+    font-family: GmarketSans;
+}
+
+.portfolio-btn {
+    font-size: 2.6rem;
+
+    width: 148px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 35px;
+    transition: all 1s ease;
+}
+
+.portfolio-btn a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding-top: 4px;
+    color: #fff;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn a:hover {
+    background: #fff;
+    color: #000;
+    border-radius: 35px;
+
+}
+
+
+.pic {
+    width: 45%;
+    height: 365px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.pic1 {
+    background: url(../img/gyeongwonjae.png);
+}
+
+.pic2 {
+    background: url(../img/tratac.png);
+}
+
+.pic3 {
+    background: url(../img/woowayouths.png);
+}
+
+.pic4 {
+    background: url(../img/nexasf.png);
+}
+
+.pic5 {
+    background: url(../img/starbucks.png);
+}
+
+.contact .inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.thank {
+    width: 45%;
+    height: 200px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 20px;
+    z-index: 999;
+    font-family: GmarketSans;
+}
+
+.thank h3,
+.thank p {
+    color: #fff;
+}
+
+.thank h3 {
+    font-size: 1.8rem;
+}
+
+.thank p {
+    font-size: 1.5rem;
+}
+
+.contact-list {
+    width: 40%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.contact-list li,
+.contact-list li p,
+.contact-list li a {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.contact-list li img {
+    width: 30px;
+    height: 30px;
+    margin-right: 30px;
+}
+
+.contact-list li a {
+    -webkit-animation: Color 4s linear infinite;
+    animation: Color 4s linear infinite;
+}
+
+
+
+.contact-list li:nth-child(1) img {
+    margin-left: 30px;
+    -webkit-animation: upAndDown 1s infinite;
+    animation: upAndDown 1s infinite;
+}
+
+.contact-list li:nth-child(2) {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
